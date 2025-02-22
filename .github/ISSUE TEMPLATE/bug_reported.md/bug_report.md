@@ -19,4 +19,4 @@ Sistema operativo: [e.g. Windows, macOS] - Navegador: [e.g. Chrome, Safari] - Ve
 
 **Información adicional** 
 
-Añade cualquier otro contexto sobre el problema aquí.
+Añade cualquier otro contexto sobre el problema aquí
