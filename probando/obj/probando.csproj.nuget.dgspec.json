@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/MiPrimerRepositorio/probando/probando.csproj": {}
+    "/Users/virginiarincon/MiPrimerRepositorio/Vini0515/Vini0515.github.io/MiPrimerRepositorio/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/MiPrimerRepositorio/probando/probando.csproj": {
+    "/Users/virginiarincon/MiPrimerRepositorio/Vini0515/Vini0515.github.io/MiPrimerRepositorio/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/MiPrimerRepositorio/probando/probando.csproj",
+        "projectUniqueName": "/Users/virginiarincon/MiPrimerRepositorio/Vini0515/Vini0515.github.io/MiPrimerRepositorio/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/MiPrimerRepositorio/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/MiPrimerRepositorio/probando/obj/",
+        "projectPath": "/Users/virginiarincon/MiPrimerRepositorio/Vini0515/Vini0515.github.io/MiPrimerRepositorio/probando/probando.csproj",
+        "packagesPath": "/Users/virginiarincon/.nuget/packages/",
+        "outputPath": "/Users/virginiarincon/MiPrimerRepositorio/Vini0515/Vini0515.github.io/MiPrimerRepositorio/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/virginiarincon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,11 +38,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,12 +61,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
